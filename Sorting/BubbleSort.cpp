@@ -23,8 +23,6 @@ void bubbleSort(vector<int>& v) {
 
 int main() {
     vector<int> v = {15, 1, 4, 2, 8};
-
-    // Sorting the vector v
     bubbleSort(v);
     for (auto i : v)
         cout << i << " ";

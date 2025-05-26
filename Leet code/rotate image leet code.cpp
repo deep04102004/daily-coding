@@ -13,7 +13,6 @@ vector<vector<int>> rotate(vector<vector<int>>&matrix)
 			swap(matrix[i][j],matrix[j][i]);
 		}
 	}
-	
 	for(auto&num:matrix)
 	{
 		reverse(num.begin(),num.end());

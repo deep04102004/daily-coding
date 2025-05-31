@@ -20,6 +20,5 @@ This repository contains my daily solutions to coding problems from platforms li
 ## How to Use
 
 Each folder contains:
-- The problem statement link (in comments)
+- Explanation in comments
 - My code solution
-- Notes or explanations (if any)

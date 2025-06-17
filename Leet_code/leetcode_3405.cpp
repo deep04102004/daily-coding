@@ -47,7 +47,7 @@ public:
 };
 
 int main() {
-    int n = 4, m = 3, k = 2;
+    int n = 3, m = 2, k = 1;
     Solution sol;
     cout << sol.countGoodArrays(n, m, k) << endl;
     return 0;

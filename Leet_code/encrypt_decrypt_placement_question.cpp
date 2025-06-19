@@ -1,3 +1,9 @@
+/*Question: A company encrypts an array of integers by multiplying all its elements. To decrypt the array, you need to extract all the distinct prime numbers from the product.
+1.Your task is to write a function that:
+2. Takes an array of n integers.
+3. Multiplies all the elements.
+4. Finds all distinct prime factors of the resulting product.
+Returns them in any order.*/
 #include<bits/stdc++.h>
 using namespace std;
 vector<int>distinctprime(int num){

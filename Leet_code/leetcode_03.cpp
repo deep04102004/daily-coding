@@ -22,7 +22,6 @@ public:
         return maxi;
     }
 };
-
 int main() {
     Solution sol;
     string input = "dvdf";  // You can change this input for testing

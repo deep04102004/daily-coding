@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <string>
 using namespace std;
 
 class Solution {
@@ -14,7 +15,9 @@ public:
 
         string result = "";
 
-        for (auto &[value, symbol] : valueSymbol) {
+        for (size_t i = 0; i < valueSymbol.size(); ++i) {
+            int value = valueSymbol[i].first;
+            string symbol = valueSymbol[i].second;
             while (num >= value) {
                 result += symbol;
                 num -= value;
@@ -27,11 +30,7 @@ public:
 
 int main() {
     Solution sol;
-
     int number = 1994;
-    string roman = sol.intToRoman(number);
-
-    cout << "Roman numeral of " << number << " is: " << roman << endl;
-
+    cout << "Roman numeral of " << number << " is: " << sol.intToRoman(number) << endl;
     return 0;
 }

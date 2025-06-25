@@ -78,7 +78,7 @@ int main() {
     
     vector<int> nums1 = {-4, -2, 0, 3};
     vector<int> nums2 = {2, 4};
-    long long k = 6;
+    long long k = 1;
 
     cout << "K-th smallest product: " << sol.kthSmallestProduct(nums1, nums2, k) << endl;
     return 0;
